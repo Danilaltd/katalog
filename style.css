@@ -1,0 +1,473 @@
+@media  (max-device-width: 640px),(max-width: 640px) { 
+    .container-buttons{
+        flex-direction: column;
+    }   
+    div#x-main-buttons{
+        width: 30vh;
+        height: 30vh;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    div#ps-main-buttons{
+        width: 30vh;
+        height: 30vh;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div#pc-main-buttons{
+        width: 30vh;
+        height: 30vh;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div#xbox-button>img{
+        width: 30vh;
+    }
+    
+    div#ps-button>img{
+        width: 30vh;
+    }
+    
+    div#pc-button>img{
+        width: 30vh;
+    }
+}
+
+
+
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body{
+    background-image: url(img/background-main.jpg);
+    height: 100vh;
+}
+
+
+
+.container-buttons{
+    width: 83vw;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+
+#x-main-buttons{
+    background-color:rgba(9, 53, 24, .5);
+    text-align: center;
+    border-radius: 5% 5%;
+    border: 1px black solid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#ps-main-buttons{
+    background-color:rgba(58, 85, 136, .5);
+    text-align: center;
+    border-radius: 5% 5%;
+    border: 1px black solid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#pc-main-buttons{
+    background-color:rgba(0, 0, 0, .5);
+    text-align: center;
+    border-radius: 5% 5%;
+    border: 1px black solid;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 25vw;
+    height: 25vw;
+    margin: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#xbox-button>img{
+    width: 25vw;
+}
+
+#ps-button>img{
+    width: 25vw;
+}
+
+#pc-button>img{
+    width: 25vw;
+}
+
+
+
+
+
+
+
+
+
+#container{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tov{
+    width: 23%;
+    height: 50%;
+    margin: 10% 1% 10% 1%;
+    display: block;
+}
+
+.name>h1{
+    text-align: center;
+}
+
+.bottom-game{
+    display: flex;
+}
+
+.bottom-game>.coast{
+    flex: 1;
+}
+
+.bottom-game>.buy{
+    flex: 1;
+}
+
+.buy>button{
+    background-color: red;
+    color: white;
+}
+
+.tov-image{
+    margin-top: 10%;
+    width:100%;
+    height:20em;
+    background-image: url("img/xbox/files/1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+
+.site-logo{
+  flex: 1;
+}
+
+.site-title{
+  flex: 10;
+}
+
+.site-header{
+    display: flex;
+    min-height: 5vh;
+    width: 100%;
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+    margin-top: 4.95vh;
+    text-align: center;
+    
+}
+
+.site-logo{
+    height: 100%;
+    display: flex;
+}
+
+.site-logo-xbox{
+    min-height: 10vh;
+    min-width: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("img/xbox/little_logo.png");
+    background-size: 100% 100%;
+}
+
+.site-logo-ps{
+    min-height: 10vh;
+    min-width: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("img/PS/little_logo.png");
+    background-size: 100% 79.375%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.site-logo-pc{
+    min-height: 10vh;
+    min-width: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url("img/PC/logo.png");
+    background-size: 100% 100%;
+}
+
+
+.site-title h1{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+}
+
+.page-nav-xbox{
+    width: 100%;
+    height: 4.95vh;
+    position: fixed;
+    top: 0;
+    left: 0;;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-nav-xbox a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #00ad3a;
+    color: white;
+    text-decoration: none;
+}
+
+.page-nav-xbox div{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+.page-nav-xbox span{
+    width: 100%;
+    text-align: center;
+}
+
+.page-nav-xbox a:hover {
+    background: #26ac53;
+}
+
+.page-nav-ps{
+    width: 100%;
+    height: 4.95vh;
+    position: fixed;
+    top: 0;
+    left: 0;;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-nav-ps a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #2b2d94;
+    color: white;
+    text-decoration: none;
+}
+
+.page-nav-ps div{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+.page-nav-ps span{
+    width: 100%;
+    text-align: center;
+}
+
+.page-nav-ps a:hover {
+    background: #3435a0;
+}
+
+
+
+.page-nav-pc{
+    width: 100%;
+    height: 4.95vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.page-nav-pc a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #9c0e21;
+    color: white;
+    text-decoration: none;
+}
+
+.page-nav-pc div{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+.page-nav-pc span{
+    width: 100%;
+    text-align: center;
+}
+
+.page-nav-pc a:hover {
+    background: #b41f33;
+}
+
+
+.site-footer{
+    width: 100%;
+    background: #4d4d4d;
+    height: 25%;
+    margin-top: 10%;
+}
+
+.site-footer > .container-footer {
+    display: flex;
+    align-items: center;
+}
+
+.nav .social ,.about-dev{
+    flex: 1;
+}
+
+.nav{
+    margin-left: 10%;
+    width: 15%;
+}
+
+.social{
+    width: 15%;
+}
+
+.about-dev{
+    width: 50%;
+    margin-right: 10%;
+}
+
+.about-dev>p{
+    color: white;
+    text-align: center;
+}
+
+.site-footer li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav>ul>li>.xbox-li:hover{
+    color: #00ad3a;
+}
+
+.nav>ul>li>.ps-li:hover{
+    color: #2b2d94;
+}
+
+.nav>ul>li>.pc-li:hover{
+    color: #9c0e21;
+}
+
+.social>ul>a{
+    display: block;
+}
+
+.social img{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 0 0;
+}
+
+.container-footer{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+#fg{
+    color:rgba(255, 255, 255, 0.5);
+}
+
+#fg>a{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+button{
+    min-height: 3em;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#body404{
+    height: 100vh;
+    align-items: center;
+}
+
+#page404{
+    width: 100%;
+    margin: auto;
+    /* border: 1px black solid; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#page404>h1{
+    text-align: center;
+}
+
+#page404>h3{
+    text-align: center;
+}
+
+#page404>img{
+    height: 40vh;
+    margin: auto;
+}
