@@ -1,8 +1,34 @@
-@media  (max-device-width: 640px),(max-width: 640px) { 
-    .container-buttons{
+::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 0px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ecedee
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 3px;
+}
+
+::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 0px
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+@media (max-device-width: 640px),(max-width: 640px) {
+    .container-buttons {
         flex-direction: column;
-    }   
-    div#x-main-buttons{
+    }
+
+    div#x-main-buttons {
         width: 30vh;
         height: 30vh;
         margin: auto;
@@ -11,7 +37,7 @@
     }
 
 
-    div#ps-main-buttons{
+    div#ps-main-buttons {
         width: 30vh;
         height: 30vh;
         margin: auto;
@@ -19,26 +45,26 @@
         margin-right: auto;
     }
 
-    div#pc-main-buttons{
+    div#pc-main-buttons {
         width: 30vh;
         height: 30vh;
         margin: auto;
         margin-left: auto;
         margin-right: auto;
     }
-    div#xbox-button>img{
+
+    div#xbox-button > img {
         width: 30vh;
     }
-    
-    div#ps-button>img{
+
+    div#ps-button > img {
         width: 30vh;
     }
-    
-    div#pc-button>img{
+
+    div#pc-button > img {
         width: 30vh;
     }
 }
-
 
 
 html {
@@ -53,28 +79,27 @@ body {
     padding: 0;
 }
 
-.main-body{
+.main-body {
     background-image: url(img/background-main.jpg);
     height: 100vh;
 }
 
 
-
-.container-buttons{
+.container-buttons {
     width: 83vw;
     margin: auto;
     display: flex;
     height: 100%;
 }
 
-#x-main-buttons{
-    background-color:rgba(9, 53, 24, .5);
+#x-main-buttons {
+    background-color: rgba(9, 53, 24, .5);
     text-align: center;
     border-radius: 5% 5%;
     border: 1px black solid;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25vw;
     height: 25vw;
     margin: auto;
@@ -82,14 +107,14 @@ body {
     margin-right: 1vw;
 }
 
-#ps-main-buttons{
-    background-color:rgba(58, 85, 136, .5);
+#ps-main-buttons {
+    background-color: rgba(58, 85, 136, .5);
     text-align: center;
     border-radius: 5% 5%;
     border: 1px black solid;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25vw;
     height: 25vw;
     margin: auto;
@@ -97,14 +122,14 @@ body {
     margin-right: 1vw;
 }
 
-#pc-main-buttons{
-    background-color:rgba(0, 0, 0, .5);
+#pc-main-buttons {
+    background-color: rgba(0, 0, 0, .5);
     text-align: center;
     border-radius: 5% 5%;
     border: 1px black solid;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25vw;
     height: 25vw;
     margin: auto;
@@ -112,27 +137,20 @@ body {
     margin-right: 1vw;
 }
 
-#xbox-button>img{
+#xbox-button > img {
     width: 25vw;
 }
 
-#ps-button>img{
+#ps-button > img {
     width: 25vw;
 }
 
-#pc-button>img{
+#pc-button > img {
     width: 25vw;
 }
 
 
-
-
-
-
-
-
-
-#container{
+#container {
     margin: auto;
     width: 80%;
     height: 100%;
@@ -140,38 +158,38 @@ body {
     flex-wrap: wrap;
 }
 
-.tov{
+.tov {
     width: 23%;
     height: 50%;
     margin: 10% 1% 10% 1%;
     display: block;
 }
 
-.name>h1{
+.name > h1 {
     text-align: center;
 }
 
-.bottom-game{
+.bottom-game {
     display: flex;
 }
 
-.bottom-game>.coast{
+.bottom-game > .coast {
     flex: 1;
 }
 
-.bottom-game>.buy{
+.bottom-game > .buy {
     flex: 1;
 }
 
-.buy>button{
+.buy > button {
     background-color: red;
     color: white;
 }
 
-.tov-image{
+.tov-image {
     margin-top: 10%;
-    width:100%;
-    height:20em;
+    width: 100%;
+    height: 20em;
     background-image: url("img/xbox/files/1.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -179,16 +197,15 @@ body {
 }
 
 
-
-.site-logo{
-  flex: 1;
+.site-logo {
+    flex: 1;
 }
 
-.site-title{
-  flex: 10;
+.site-title {
+    flex: 10;
 }
 
-.site-header{
+.site-header {
     display: flex;
     min-height: 5vh;
     width: 100%;
@@ -200,15 +217,15 @@ body {
     margin: auto;
     margin-top: 4.95vh;
     text-align: center;
-    
+
 }
 
-.site-logo{
+.site-logo {
     height: 100%;
     display: flex;
 }
 
-.site-logo-xbox{
+.site-logo-xbox {
     min-height: 10vh;
     min-width: 10vh;
     margin-left: 5%;
@@ -217,7 +234,7 @@ body {
     background-size: 100% 100%;
 }
 
-.site-logo-ps{
+.site-logo-ps {
     min-height: 10vh;
     min-width: 10vh;
     margin-left: 5%;
@@ -228,7 +245,7 @@ body {
     background-position: center center;
 }
 
-.site-logo-pc{
+.site-logo-pc {
     min-height: 10vh;
     min-width: 10vh;
     margin-left: 5%;
@@ -238,13 +255,13 @@ body {
 }
 
 
-.site-title h1{
+.site-title h1 {
     font-size: 50px;
     color: white;
     text-align: left;
 }
 
-.page-nav-xbox{
+.page-nav-xbox {
     width: 100%;
     height: 4.95vh;
     position: fixed;
@@ -264,14 +281,14 @@ body {
     text-decoration: none;
 }
 
-.page-nav-xbox div{
+.page-nav-xbox div {
     text-align: center;
     flex: 1;
     display: flex;
     align-items: stretch;
 }
 
-.page-nav-xbox span{
+.page-nav-xbox span {
     width: 100%;
     text-align: center;
 }
@@ -280,7 +297,7 @@ body {
     background: #26ac53;
 }
 
-.page-nav-ps{
+.page-nav-ps {
     width: 100%;
     height: 4.95vh;
     position: fixed;
@@ -300,14 +317,14 @@ body {
     text-decoration: none;
 }
 
-.page-nav-ps div{
+.page-nav-ps div {
     text-align: center;
     flex: 1;
     display: flex;
     align-items: stretch;
 }
 
-.page-nav-ps span{
+.page-nav-ps span {
     width: 100%;
     text-align: center;
 }
@@ -317,8 +334,7 @@ body {
 }
 
 
-
-.page-nav-pc{
+.page-nav-pc {
     width: 100%;
     height: 4.95vh;
     position: fixed;
@@ -338,14 +354,14 @@ body {
     text-decoration: none;
 }
 
-.page-nav-pc div{
+.page-nav-pc div {
     text-align: center;
     flex: 1;
     display: flex;
     align-items: stretch;
 }
 
-.page-nav-pc span{
+.page-nav-pc span {
     width: 100%;
     text-align: center;
 }
@@ -355,7 +371,7 @@ body {
 }
 
 
-.site-footer{
+.site-footer {
     width: 100%;
     background: #4d4d4d;
     height: 25%;
@@ -367,62 +383,62 @@ body {
     align-items: center;
 }
 
-.nav .social ,.about-dev{
+.nav .social, .about-dev {
     flex: 1;
 }
 
-.nav{
+.nav {
     margin-left: 10%;
     width: 15%;
 }
 
-.social{
+.social {
     width: 15%;
 }
 
-.about-dev{
+.about-dev {
     width: 50%;
     margin-right: 10%;
 }
 
-.about-dev>p{
+.about-dev > p {
     color: white;
     text-align: center;
 }
 
-.site-footer li{
+.site-footer li {
     list-style-type: none;
     margin: 10px;
 }
 
-.nav>ul>li>a{
+.nav > ul > li > a {
     color: white;
     text-decoration: none;
 }
 
-.nav>ul>li>.xbox-li:hover{
+.nav > ul > li > .xbox-li:hover {
     color: #00ad3a;
 }
 
-.nav>ul>li>.ps-li:hover{
+.nav > ul > li > .ps-li:hover {
     color: #2b2d94;
 }
 
-.nav>ul>li>.pc-li:hover{
+.nav > ul > li > .pc-li:hover {
     color: #9c0e21;
 }
 
-.social>ul>a{
+.social > ul > a {
     display: block;
 }
 
-.social img{
+.social img {
     width: 25px;
     height: 25px;
     margin: 0 10px 0 0;
 }
 
-.container-footer{
+.container-footer {
     margin: auto;
     width: 100%;
     height: 100%;
@@ -430,27 +446,27 @@ body {
 }
 
 
-#fg{
-    color:rgba(255, 255, 255, 0.5);
-}
-
-#fg>a{
+#fg {
     color: rgba(255, 255, 255, 0.5);
 }
 
-button{
+#fg > a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+button {
     min-height: 3em;
     width: 100%;
     justify-content: center;
 }
 
 
-#body404{
+#body404 {
     height: 100vh;
     align-items: center;
 }
 
-#page404{
+#page404 {
     width: 100%;
     margin: auto;
     /* border: 1px black solid; */
@@ -459,15 +475,15 @@ button{
     text-align: center;
 }
 
-#page404>h1{
+#page404 > h1 {
     text-align: center;
 }
 
-#page404>h3{
+#page404 > h3 {
     text-align: center;
 }
 
-#page404>img{
+#page404 > img {
     height: 30vh;
     margin: auto;
 }
