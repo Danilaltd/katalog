@@ -441,6 +441,7 @@ function makeImgDiv(i) {
 function makeNameDiv(i) {
     var nameDiv = document.createElement('div');
     nameDiv.setAttribute('id', 'name-'+parseInt(i+1));
+    nameDiv.style.overflow='auto';
     mainDiv = document.getElementById('tov-'+parseInt(i+1));
     nameDiv.style.height='8em';
     mainDiv.append(nameDiv);
@@ -487,7 +488,6 @@ function makeBuyDiv(i){
     buyDiv.setAttribute('id', 'buy-'+parseInt(i+1));
     buyDiv.style.flex='1';
     buyDiv.style.margin='auto';
-    buyDiv.style.marginRight='10%';
     bottomGameDiv = document.getElementById('bottom-game-'+parseInt(i+1));
     bottomGameDiv.append(buyDiv);
     makeA(i);

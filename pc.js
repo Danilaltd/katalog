@@ -441,6 +441,7 @@ function makeImgDiv(i) {
 function makeNameDiv(i) {
     var nameDiv = document.createElement('div');
     nameDiv.setAttribute('id', 'name-'+parseInt(i+1));
+    nameDiv.style.overflow='auto';
     mainDiv = document.getElementById('tov-'+parseInt(i+1));
     nameDiv.style.height='7em';
     mainDiv.append(nameDiv);
